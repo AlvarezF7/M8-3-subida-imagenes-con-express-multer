@@ -48,7 +48,6 @@ Intento subir archivo `.pdf` (rechazado):
 
 
 
-
 ## Instrucciones de ejecución
 
 1. Instalar dependencias: **npm install**
