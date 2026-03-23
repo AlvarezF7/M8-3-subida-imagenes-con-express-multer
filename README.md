@@ -11,7 +11,7 @@ Proyecto práctico para subir imágenes al servidor usando Node.js, Express y Mu
 - Boostrap 5.
 
 ## Estructura Proyecto
-![Texto alternativo](     )
+![imagen-estructura-proyecto](https://github.com/AlvarezF7/M8-3-subida-imagenes-con-express-multer/blob/main/public/img/estructura-proyecto.png)
 
 
 ## Funcionalidades
@@ -31,19 +31,19 @@ Proyecto práctico para subir imágenes al servidor usando Node.js, Express y Mu
 
 ## Vista de la Aplicación para celular y Ipad
 
-![vista -celular](     )
+![vista -celular](https://github.com/AlvarezF7/M8-3-subida-imagenes-con-express-multer/blob/main/public/img/vista-celular.png)
 
-![vista-ipad](   )
+![vista-ipad](https://github.com/AlvarezF7/M8-3-subida-imagenes-con-express-multer/blob/main/public/img/vista-ipad.png)
 
 
 ### Pruebas de Validación
 Intento subir archivo `.txt` (rechazado):
 
-![txt-error](public/img/txt-error.png)
+![txt-error](https://github.com/AlvarezF7/M8-3-subida-imagenes-con-express-multer/blob/main/public/img/error-txt.png)
 
 Intento subir archivo `.pdf` (rechazado):
 
-![pdf-error](public/img/pdf-error.png)
+![pdf-error](https://github.com/AlvarezF7/M8-3-subida-imagenes-con-express-multer/blob/main/public/img/error-pdf.png)
 
 
 
