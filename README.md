@@ -43,7 +43,7 @@ Intento subir archivo `.txt` (rechazado):
 
 Intento subir archivo `.pdf` (rechazado):
 
-![pdf-error](https://github.com/AlvarezF7/M8-3-subida-imagenes-con-express-multer/blob/main/public/img/error-pdf.png)
+![pdf-error](https://github.com/AlvarezF7/M8-3-subida-imagenes-con-express-multer/blob/main/public/img/error-pdf-1.png)
 
 
 
