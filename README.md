@@ -1,24 +1,49 @@
 ## M8-3-Subida de imagenes con Express + Multer
 
 ## Descripción
+Proyecto práctico para subir imágenes al servidor usando Node.js, Express y Multer. Permite validar tipo de archivo y tamaño, mostrar mensajes de éxito o error, y ver la imagen subida en un modal. Ideal para aprender la gestión de archivos en el backend y la interacción con el frontend.
 
 
 ## Tecnologías utilizadas
 - Node.js.  
 - Express.   
 - HTML / CSS / JavaScript.  
-- Archivos JSON para datos de ejemplo (usuarios.json y productos.json).
+- Boostrap 5.
 
 ## Estructura Proyecto
 ![Texto alternativo](     )
 
 
 ## Funcionalidades
-
-
-
+- Subida de imágenes (jpg, jpeg, png, gif) con límite de 5 MB.
+- Mensajes de feedback en la interfaz (éxito o error).
+- Modal para mostrar la imagen subida.
+- Validación en backend para tipo de archivo y tamaño.
+- Limpieza automática del input después de subir o error.
+- Responsive para móviles y tablets.
 
 ## Endpoints
+
+| Método | Ruta    | Descripción                     | Código HTTP     |
+| ------ | ------- | ------------------------------- | --------------- |
+| POST   | /upload | Subir una imagen (campo `foto`) | 201 / 400 / 415 |
+
+
+## Vista de la Aplicación para celular y Ipad
+
+![vista -celular](     )
+
+![vista-ipad](   )
+
+
+### Pruebas de Validación
+Intento subir archivo `.txt` (rechazado):
+
+![txt-error](public/img/txt-error.png)
+
+Intento subir archivo `.pdf` (rechazado):
+
+![pdf-error](public/img/pdf-error.png)
 
 
 
@@ -32,7 +57,7 @@
 
 
 ## Notas
-
+- Las imágenes se guardan en la carpeta uploads/ con nombre único (Date.now() + extensión).
 
 
 
